@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            {% block head %}
+            Fake Natty
+            {% endblock %}
+        </title>
+    </head>
+
+{% block Body %}
+    <body>
+
+        <h1> Natty - site focado apenas para Fakes Natty</h1>
+        <h2> poste seu fake Natty favorito!</h2>
+
+        {% block formulario %}
+        <form method="POST">
+        {{ form.csrf_token }}
+            {{ form.email.label() }}
+            {{ form.email }}
+
+            {{ form.senha.label() }}
+            {{ form.senha }}
+
+            {{ form.botao_confirmacao }}
+
+
+        </form>
+        {% endblock %}
+
+    </body>
+{% endblock %}
+</html>
