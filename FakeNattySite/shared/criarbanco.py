@@ -1,4 +1,4 @@
-from fakeNatty import app,database
+from shared import app,database
 
 with app.app_context():
     database.create_all()

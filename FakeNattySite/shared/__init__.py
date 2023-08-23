@@ -14,4 +14,4 @@ login_manager = LoginManager(app)
 login_manager.login_view = "homepage"
 #onde faz o login, alterar caso queira enfeitar
 
-from fakeNatty import routes
+from shared import routes

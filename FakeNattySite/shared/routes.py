@@ -1,9 +1,9 @@
 #Rotas do meu site
 from flask import render_template, url_for, redirect
-from fakeNatty import app, database, bcrypt
-from fakeNatty.models import Usuario, Post
+from shared import app, database, bcrypt
+from shared.models import Usuario, Post
 from flask_login import login_required, login_user, logout_user
-from fakeNatty.forms import FormLogin, FormCriarConta
+from shared.forms import FormLogin, FormCriarConta
 
 
 @app.route("/", methods=["GET", "POST"])

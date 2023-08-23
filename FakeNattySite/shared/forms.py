@@ -2,7 +2,7 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField
 from wtforms.validators import DataRequired, Email, EqualTo, Length, ValidationError
-from fakeNatty.models import Usuario
+from shared.models import Usuario
 
 
 class FormLogin(FlaskForm):
