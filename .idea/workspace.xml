@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e616b0f-36b4-447f-b643-367e85313586" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/projetoFakeNatty.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banco.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeNatty/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeNatty/criarbanco.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeNatty/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeNatty/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeNatty/routes.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeNatty/templates/criarconta.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeNatty/templates/homepage.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fakeNatty/templates/perfil.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FakeNattySite/shared/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/FakeNattySite/shared/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,5 +1,5 @@
 # branco de dados
-from fakeNatty import database, login_manager
+from shared import database, login_manager
 from datetime import datetime
 from flask_login import UserMixin
 
